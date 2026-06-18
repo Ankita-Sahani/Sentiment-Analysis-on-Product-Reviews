@@ -32,3 +32,17 @@ Three visualiza􀆟ons were created to represent the analysis:
  Strong correla􀆟on was observed between customer ra􀆟ngs and sen􀆟ment scores.
  Higher ra􀆟ngs generally reflected posi􀆟ve sen􀆟ments, while lower ra􀆟ngs showed nega􀆟ve
 sen􀆟ments.
+
+# Technologies Used
+ Python
+ Pandas
+ NumPy
+ Matplotlib
+ Seaborn
+ TextBlob
+
+# Conclusion
+The project successfully demonstrated the use of NLP techniques for sen􀆟ment analysis of customer
+reviews. The results indicate a high level of customer sa􀆟sfac􀆟on and highlight the effec􀆟veness of
+TextBlob in extrac􀆟ng sen􀆟ment from textual data. This analysis can help businesses iden􀆟fy
+customer concerns, improve products, and make data-driven decisions based on customer feedback.
