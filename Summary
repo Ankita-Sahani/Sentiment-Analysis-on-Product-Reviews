@@ -1,0 +1,34 @@
+# Project Summary
+The objec􀆟ve of this project was to analyze customer product reviews and iden􀆟fy customer
+sen􀆟ment using Natural Language Processing (NLP). Customer feedback plays a crucial role in
+understanding user sa􀆟sfac􀆟on and improving products and services. The project uses the Amazon
+Fine Food Reviews dataset to classify reviews as Posi􀆟ve, Nega􀆟ve, or Neutral.
+
+# Methodology
+Data Preprocessing
+To improve data quality and analysis accuracy, the following preprocessing steps were performed:
+ Removed null and empty review records.
+ Eliminated duplicate reviews.
+ Selected relevant columns: Review Text and Ra􀆟ng Score.
+
+# Sen􀆟ment Analysis
+The TextBlob library was used to calculate sen􀆟ment polarity scores for each review. Based on the
+polarity value:
+ Posi􀆟ve: Polarity > 0
+ Nega􀆟ve: Polarity < 0
+ Neutral: Polarity = 0
+The sen􀆟ment classifica􀆟on helped in understanding customer opinions from textual reviews.
+
+# Data Visualiza􀆟on
+Three visualiza􀆟ons were created to represent the analysis:
+1. Bar Chart – Distribu􀆟on of Posi􀆟ve, Nega􀆟ve, and Neutral Reviews.
+2. Pie Chart – Percentage Distribu􀆟on of Sen􀆟ments.
+3. Ra􀆟ng vs Sen􀆟ment Analysis – Rela􀆟onship between review ra􀆟ngs and sen􀆟ment polarity.
+
+# Key Findings
+ Approximately 88.4% of reviews were Posi􀆟ve.
+ Around 10.1% of reviews were Nega􀆟ve.
+ Neutral reviews represented a very small percentage.
+ Strong correla􀆟on was observed between customer ra􀆟ngs and sen􀆟ment scores.
+ Higher ra􀆟ngs generally reflected posi􀆟ve sen􀆟ments, while lower ra􀆟ngs showed nega􀆟ve
+sen􀆟ments.
